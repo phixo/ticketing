@@ -1,0 +1,18 @@
+{
+  "name": "ticketing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:dev": "skaffold dev --no-prune=false --cache-artifacts=false --no-prune-children=false"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "./src/test/setup.ts"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
